@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ufc-excitement-index"
+version = "0.1.0"
+description = "Helping me decide which fights to watch"
+authors = ["Lordpassie"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.26.0"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
